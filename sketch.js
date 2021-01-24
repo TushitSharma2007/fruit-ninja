@@ -129,7 +129,8 @@ var rand = Math.round(random(1, 4))
   }
      fruit1.velocityX = -(4+score_it/4);
     fruit1.scale = 0.13;
-    fruit1.lifetime = 120;
+    if(fruit1.x = 0){
+    fruit1.lifetime = 0}
     fruit_group.add(fruit1);
   }
   
