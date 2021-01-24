@@ -140,7 +140,7 @@ var rand = Math.round(random(1, 4))
       var alien = createSprite(windowWidth,Math.round(random(10,490)),50,50);
       alien.velocityX=-(4+score_it/10);
       alien.scale=0.7;
-      alien.lifetime=300;
+      alien.lifetime = 300;
       alien.addAnimation("alien_move",alien_animation);
       alien_group.add(alien);      
     }
@@ -176,7 +176,7 @@ function monster2(){
       var alien2=createSprite(0,Math.round(random(10,490)),50,50);
       alien2.velocityX=(4+score_it/10);
       alien2.scale=0.7;
-      alien2.lifetime=300;
+      alien2.lifetime = 300;
       alien2.addAnimation("alien_move",alien_animation);
       alien_group2.add(alien2);      
     }
